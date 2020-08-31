@@ -1,0 +1,110 @@
+body{
+    background-color:#000000;
+}
+
+p{
+    color:#33FF66;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    background: #000;
+}
+
+.loader {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    border-radius: 60px;
+    animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+        border: 4px solid #f44336;
+        border-left-color: transparent;
+    }
+    50% {
+        transform: rotate(180deg);
+        border: 4px solid #673ab7;
+        border-left-color: transparent;
+    }
+    100% {
+        transform: rotate(360deg);
+        border: 4px solid #f44336;
+        border-left-color: transparent;
+    }
+}
+
+/*============= Navbar =============*/
+nav {
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+}
+
+.logo {
+    float: left;
+    margin-right: 10px;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.navbar-collapse ul li{
+    padding-right: 15px;
+}
+
+.navbar-collapse ul li a {
+    color: #fff;
+    padding: 5px 20px;
+    transition: 0.6s ease;
+    border-radius: 10px;
+    letter-spacing: 0.08em;
+}
+
+.navbar-collapse ul li a:hover {
+    background-color: #E5E5E5;
+    color: #000;
+}
+/*========== End Navbar ===========*/
+
+/*========== Carousel ===========*/
+
+.carousel-caption {
+    top: 30%;
+}
+
+.carousel-caption .highlightcaption {
+    color: orange;
+    text-transform: uppercase;
+    font-size: 145%;
+}
+
+.carousel-caption p {
+    font-size: 1.4em;
+    font-weight: 550;
+    color: white;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+/*========== End Carousel ===========*/
+
+
+
