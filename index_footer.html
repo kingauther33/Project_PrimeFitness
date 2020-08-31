@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index_footer.css">
+    <meta charset="UTF-8">
+    <title>footer</title>
+</head>
+<body>
+<footer class="footer">
+    <div class="footer__addr">
+        <h1 class="footer__logo">Prime Fitness</h1>
+
+        <h2>Contact</h2>
+
+        <address>
+            5534 Somewhere In. The World 22193-10212<br>
+
+            <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+        </address>
+    </div>
+
+    <ul class="footer__nav">
+        <li class="nav__item">
+            <h2 class="nav__title">MEMBERSHIP</h2>
+
+            <ul class="nav__ul">
+                <li>
+                    <a href="#">Sign up</a>
+                </li>
+
+                <li>
+                    <a href="#">Exclusive Member</a>
+                </li>
+
+                <li>
+                    <a href="#">Personal Trainer</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="nav__item nav__item--extra">
+            <h2 class="nav__title">Activities</h2>
+
+            <ul class="nav__ul nav__ul--extra">
+                <li>
+                    <a href="#">Cycling</a>
+                </li>
+
+                <li>
+                    <a href="#">Swimming</a>
+                </li>
+
+                <li>
+                    <a href="#">Running</a>
+                </li>
+
+                <li>
+                    <a href="#">FAQs</a>
+                </li>
+
+                <li>
+                    <a href="#">Gallery</a>
+                </li>
+
+                <li>
+                    <a href="#">Events</a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="nav__item">
+            <h2 class="nav__title"></h2>
+
+            <ul class="nav__ul">
+                <li>
+                    <a href="#"></a>
+                </li>
+
+                <li>
+                    <a href="#"></a>
+                </li>
+
+                <li>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <div id="map"></div>
+
+    <div class="legal">
+        <p>&copy; 2020 An&Hieu Co. All rights reserved.</p>
+
+        <div class="legal__links">
+            <span>Made with WebStorm</span>
+        </div>
+    </div>
+</footer>
+<script>function initMap() {
+    var location = {lat: 21.066561, lng: 105.826088};
+    var map = new google.maps.Map(document.getElementById("map"),{
+        zoom: 4,
+        center: location
+    });
+    var marker = new google.maps.Marker({
+        position: location,
+        map: map
+    });
+}</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAveiaR0yOmVYNldpnofGjsvMsApYrEzpA&callback=initMap"
+        type="text/javascript"></script>
+</body>
+</html>
