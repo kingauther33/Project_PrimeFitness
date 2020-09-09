@@ -134,6 +134,7 @@ padding-bottom: 23px;
     font-size: 50px;
     font-weight: bolder;
     text-transform: uppercase;
+
 }
 .single-price .price-header span{
     position: relative;
@@ -173,4 +174,10 @@ padding-bottom: 23px;
     background: #FF1414;
     color: #fff !important;
     border: 1px solid #FF1414;
+}
+h2{
+    font-size: 153px;
+    font-weight: bolder;
+    font-family: "PaytoneOne",sans-serif;
+    text-transform: uppercase;
 }
