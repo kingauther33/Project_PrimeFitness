@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- Preloader -->
@@ -87,6 +88,12 @@
                 5534 Somewhere In. The World 22193-10212<br>
 
                 <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+                <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+                <i class="fa fa-facebook-square" style="font-size:24px"></i>
+                <i class="fa fa-instagram" style="font-size:24px"></i>
+                <i class="fa fa-twitter-square" style="font-size:24px"></i>
+                <i class="fa fa-reddit-square" style="font-size:24px"></i>
+
             </address>
         </div>
 
@@ -140,6 +147,7 @@
             </li>
 
             <li class="nav__item">
+                <div id="map"></div>
                 <h2 class="nav__title"></h2>
 
                 <ul class="nav__ul">
@@ -157,7 +165,7 @@
                 </ul>
             </li>
         </ul>
-        <div id="map"></div>
+
 
         <div class="legal">
             <p>&copy; 2020 An&Hieu Co. All rights reserved.</p>
@@ -167,17 +175,19 @@
             </div>
         </div>
     </footer>
-    <script>function initMap() {
-        var location = {lat: 21.066561, lng: 105.826088};
-        var map = new google.maps.Map(document.getElementById("map"),{
-            zoom: 4,
-            center: location
-        });
-        var marker = new google.maps.Marker({
-            position: location,
-            map: map
-        });
-    }</script>
+    <script>
+        function initMap() {
+            var location = {lat: 21.066561, lng: 105.826088};
+            var map = new google.maps.Map(document.getElementById("map"),{
+                zoom: 4,
+                center: location
+            });
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map
+            });
+        }
+    </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAveiaR0yOmVYNldpnofGjsvMsApYrEzpA&callback=initMap"
             type="text/javascript"></script>
     <!-- Javascript -->
