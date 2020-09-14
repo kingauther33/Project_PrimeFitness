@@ -183,6 +183,7 @@ nav {
 /*============= END CONTENT CSS =============*/
 
 /*============= HIEU =============*/
+/*============= footer =============*/
 #map{
     height: 200px;
     width: 110%;
@@ -315,7 +316,7 @@ nav {
         flex: 2 0;
     }
 }
-
+/*============= footer ends =============*/
 /*============= Membership =============*/
 .container-membership{
     margin-right: auto;
@@ -500,5 +501,5 @@ nav {
     font-family: "PaytoneOne",sans-serif;
     text-transform: uppercase;
 }
-
+/*============= Membership ends =============*/
 
