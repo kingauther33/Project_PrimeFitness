@@ -20,14 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9fb9a350-082b-4eef-b407-ecdf66efa879" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Gym-website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project_PrimeFitness/Membership.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project_PrimeFitness/Membership.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project_PrimeFitness/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project_PrimeFitness/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project_PrimeFitness/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project_PrimeFitness/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project_PrimeFitness/images/LogoSize_Email_signature_ByTailorBrands.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project_PrimeFitness/images/crossfit-motivational-emblem-flat-style.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project_PrimeFitness/images/logo.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project_PrimeFitness/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project_PrimeFitness/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +53,9 @@
       <updated>1600030161250</updated>
       <workItem from="1600030162946" duration="10910000" />
       <workItem from="1600218627432" duration="1297000" />
-      <workItem from="1600351512205" duration="702000" />
+      <workItem from="1600351512205" duration="1072000" />
+      <workItem from="1600394703815" duration="630000" />
+      <workItem from="1600396088313" duration="19000" />
     </task>
     <servers />
   </component>
@@ -80,9 +75,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="805" y="118" key="FileChooserDialogImpl" timestamp="1600351591541">
+    <state x="705" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600394214970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="805" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600351591541" />
+    <state x="705" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1600394214970" />
+    <state x="805" y="118" key="FileChooserDialogImpl" timestamp="1600396105180">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="805" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600396105180" />
   </component>
 </project>

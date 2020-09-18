@@ -2,10 +2,10 @@ html, body {
     height: 100%;
     font-family: 'Karla', sans-serif;
     -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    color: #111111;
     font-weight: 400;
     font-family: 'Karla', sans-serif;
 }
@@ -30,7 +30,6 @@ h6 {
 p {
     font-size: 16px;
     font-family: 'Karla', sans-serif;
-    color: #6b6b6b;
     font-weight: 400;
     line-height: 26px;
     margin: 0 0 15px 0;
@@ -53,15 +52,11 @@ ul, ol {
 
 /*============= END RESETS =============*/
 
-p{
-    color:black;
-    font-size: 18px;
+/*============= Basic LAYOUT =============*/
+.fontheading {
+    font-family: 'Catamaran', sans-serif; !important;
 }
-
-h2 {
-    font-size: 45px;
-    color: black;
-}
+/*============= END Basic LAYOUT =============*/
 
 #preloader {
     position: fixed;
@@ -150,6 +145,16 @@ nav {
     top: 30%;
 }
 
+.carousel-caption h3 {
+    letter-spacing: 1px;
+    font-size: 80px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.carousel-caption p, .carousel-caption button {
+    font-family: 'Rubik', sans-serif;
+}
+
 .carousel-caption .highlightcaption {
     color: #DF302D;
     text-transform: uppercase;
@@ -168,18 +173,286 @@ nav {
 
 .carousel-inner img {
     width: 100%;
-    height: 700px;
+    height: 550px;
     filter: brightness(30%);
 }
 
 /*========== End Carousel ===========*/
 
+/*========== WElCOME ===========*/
 
-/*============= Content CSS =============*/
-.c_p2 {
-    background-image: linear-gradient(to bottom right, #c3bebe, #DF302D);
+.welcome {
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
-/*============= END CONTENT CSS =============*/
+
+/*========== End WELCOME ===========*/
+
+/*========== CARD  ===========*/
+.card {
+    background-color: #222222;
+    border-radius: 0;
+    border: 0 solid white;
+}
+
+.card .inner {
+    background-color: #c11325;
+}
+
+.card-text, .card-title {
+    color: white;
+}
+/*========== End CARD ===========*/
+
+/*========== SERVICES ===========*/
+.service {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: #c11325;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.service p, .service h2 {
+    color: #fff;
+}
+
+/*========== End SERVICE ===========*/
+
+/*========== START Classes ===========*/
+.classes {
+    margin-bottom: 100px;
+}
+
+.classes .row h2, .classes .row p{
+    letter-spacing: 0.01em;
+}
+
+
+.classes .inner {
+    background-color: #222222;
+}
+
+.classes .row .row p, .classes .row .row h4 {
+    letter-spacing: -1px;
+}
+/*========== End Classes ===========*/
+
+
+/*========== START NOW ===========*/
+.now {
+    background-color: #222222;
+    color: #FFFFFF;
+    margin-bottom: 120px;
+}
+/*========== END NOW ===========*/
+
+
+/*========== START Schedules ===========*/
+.schedule {
+    margin-top: 500px;
+}
+
+.table td {
+    vertical-align: middle !important;
+    text-align: center;
+    border: 1px solid #95999c;
+}
+
+.table th {
+    vertical-align: middle !important;
+    text-align: center;
+    border: 1px solid #95999c;
+}
+
+.table tr:nth-child(even) .day {
+    background-color: #95999c;
+    color: #FFFFFF;
+}
+
+.table tr:nth-child(odd) .day {
+    background-color: #0b0b0b;
+    color: #FFFFFF;
+}
+
+.table tr:nth-child(1) .day {
+    background-color: #c11325;
+    color: #FFFFFF;
+}
+/*========== END Schedules ===========*/
+
+/*========== START Feedbacks ===========*/
+
+/*========== END Feedbacks ===========*/
+.testimonials {
+    margin: 50px auto;
+}
+
+.testimonials h2 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: #c11325;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.testimonials h2::after {
+    content: '';
+    background: #c11325;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.testimonialsrow {
+    margin-top: 100px;
+}
+
+.profile {
+    background-color: #efefef;
+    padding: 70px 10px 10px;
+}
+
+.profile img {
+    top: -60px;
+    position: absolute;
+    left: calc(50% - 60px);
+    border: 10px solid white;
+}
+
+.user {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #c11325;
+}
+
+.profilehl {
+    font-size: 12px;
+    color: #333333;
+}
+
+.profile blockquote {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+blockquote::before {
+    content: '\201C';
+    font-size: 50px;
+    position: relative;
+    color: #c11325;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+}
+
+blockquote::after {
+    content: '\201D';
+    font-size: 50px;
+    position: relative;
+    color: #c11325;
+    line-height: 20px;
+    bottom: -15px;
+    left: 5px;
+}
+/*============= ============= ABOUT CSS ============= ============= */
+
+/*============= WELCOME Section =============*/
+.welcome__about {
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.welcome__about .container__content {
+    width: 40%;
+    margin: 10px auto;
+    padding: 0;
+}
+
+.welcome__about .welcome__bottom {
+    border-bottom: 3px solid #c11325;
+    line-height: 50px;
+}
+
+.welcome__about h2 {
+    font-family: 'Catamaran', sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 0.25em;
+}
+
+.welcome__about h4 {
+    font-size: 125%;
+    margin-top: 30px;
+    letter-spacing: 0.1em;
+}
+
+.welcome__about .container__img__welcome {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+/*============= END WELCOME Section =============*/
+
+
+/*============= Counting Section =============*/
+
+.c_p2 {
+    background-image: url("../images/about_counting.jpg");
+    background-size: contain;
+}
+
+.c_p2 {
+    color: white;
+}
+
+/*============= END Counting Section =============*/
+
+/*============= Contact Us Section =============*/
+.contact__abt .contact__bottomleft {
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+}
+
+.contact__abt .firstdiv {
+    background: #E3DFDB;
+}
+
+.contact__abt .row {
+}
+
+.contact__abt .row h4 {
+    border-bottom: 2px solid #000000;
+    font-size: 140%;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+.contact__abt .row a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.contact__abt .row a:hover {
+    color: #95999c;
+}
+
+.contact__abt .row a h4:hover {
+    border-bottom: 2px solid #95999c;
+}
+/*============= END Contact Us Section =============*/
+
+/*============= ============= END About CSS ============= ============= */
+
 
 /*============= HIEU =============*/
 /*============= footer =============*/
