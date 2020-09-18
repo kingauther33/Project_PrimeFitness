@@ -2,7 +2,6 @@ html, body {
     height: 100%;
     font-family: 'Karla', sans-serif;
     -webkit-font-smoothing: antialiased;
-    font-smoothing: antialiased;
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
@@ -504,68 +503,73 @@ nav {
 /*============= Membership ends =============*/
 
 /*============= Event =============*/
-.classes-section {
-    padding-top: 90px;
-    padding-bottom: 95px;
-}
-.classes-section.classes-page {
-    padding-bottom: 60px;
-}
-.classes-slider {
-    margin: 0;
-}
-.classes-slider.owl-carousel .owl-dots {
-    text-align: center;
-    margin-top: 12px;
-}
-.classes-slider.owl-carousel .owl-dots button {
-    width: 9px;
-    height: 9px;
-    display: inline-block;
-    background: #ebebeb;
-    border-radius: 50%;
-    margin-right: 10px;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-}
-.classes-slider.owl-carousel .owl-dots button.owl-dot.active {
-    width: 42px;
-    border-radius: 50px;
-    background: #f67831;
-}
-.classes-slider.owl-carousel .owl-dots button:last-child {
-    margin-right: 0;
-}
-.classes-slider .col-lg-4 {
-    max-width: 100%;
-}
-.single-class-item {
-    height: 255px;
+.site-section-heading {
+    font-size: 30px;
     position: relative;
-    margin-bottom: 30px;
-}
-.single-class-item .si-text {
-    position: absolute;
+    padding-top: 20px; }
+.site-section-heading:before {
+    content: "";
     left: 0;
-    bottom: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    top: 0;
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: #fd7e14; }
+.site-section-heading.text-center:before {
+    content: "";
+    left: 50%;
+    top: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: #fd7e14;
 }
-.single-class-item .si-text h4 {
-    font-size: 22px;
-    font-weight: 600;
-    color: #ffffff;
-}
-.single-class-item .si-text span {
-    font-size: 14px;
-    color: #ffffff;
-}
-.single-class-item .si-text span i {
-    color: #e85d39;
-    margin-right: 4px;
-}
+.site-section {
+    padding: 3em 0; }
+@media (min-width: 768px) {
+    .site-section {
+        padding: 7em 0; } }
+.site-section.site-section-sm {
+    padding: 4em 0; }
+
+.site-section-heading {
+    font-size: 30px;
+    position: relative;
+    padding-top: 20px; }
+.site-section-heading:before {
+    content: "";
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: #fd7e14; }
+.btn {
+    position: relative;
+    top: 0; }
+.btn:hover, .btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important; }
+.btn.btn-secondary {
+    background-color: #e6e7e9;
+    border-color: #e6e7e9;
+    color: #000; }
+.btn.btn-sm {
+    font-size: 0.9rem; }
+.btn:hover {
+    -webkit-box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
+    box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important; }
+.btn.pill {
+    border-radius: 30px !important; }
+.btn.btn-white.btn-outline-white {
+    border-color: #fff;
+    background: transparent;
+    color: #fff; }
+.btn.btn-white.btn-outline-white:hover {
+    background: #fff;
+    color: #000; }
 /*============= Event ends =============*/
