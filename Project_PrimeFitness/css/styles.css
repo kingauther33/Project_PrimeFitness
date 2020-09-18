@@ -468,6 +468,7 @@ nav {
     font-weight: 500;
     line-height: 40px;
     color: #7A838B;
+    list-style: none;
 }
 .single-price:hover{
     border: 1px solid #FF1414;
