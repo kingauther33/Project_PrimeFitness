@@ -821,29 +821,29 @@ blockquote::after {
     width: 40px;
     height: 2px;
     background: #fd7e14; }
-.btn {
+.event-btn {
     position: relative;
     top: 0; }
-.btn:hover, .btn:active, .btn:focus {
+.event-btn:hover, .event-btn:active, .event-btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
-.btn.btn-secondary {
+.event-btn.event-btn-secondary {
     background-color: #e6e7e9;
     border-color: #e6e7e9;
     color: #000; }
-.btn.btn-sm {
+.event-btn.btn-sm {
     font-size: 0.9rem; }
-.btn:hover {
+.event-btn:hover {
     -webkit-box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
     box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important; }
-.btn.pill {
+.event-btn.pill {
     border-radius: 30px !important; }
-.btn.btn-white.btn-outline-white {
+.event-btn.btn-white.btn-outline-white {
     border-color: #fff;
     background: transparent;
     color: #fff; }
-.btn.btn-white.btn-outline-white:hover {
+.event-btn.btn-white.btn-outline-white:hover {
     background: #fff;
     color: #000; }
 /*============= Event ends =============*/
