@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9fb9a350-082b-4eef-b407-ecdf66efa879" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9fb9a350-082b-4eef-b407-ecdf66efa879" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project_PrimeFitness" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gutim" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -53,9 +51,9 @@
       <updated>1600030161250</updated>
       <workItem from="1600030162946" duration="10910000" />
       <workItem from="1600218627432" duration="1297000" />
-      <workItem from="1600351512205" duration="1072000" />
-      <workItem from="1600394703815" duration="630000" />
-      <workItem from="1600396088313" duration="19000" />
+      <workItem from="1600351512205" duration="702000" />
+      <workItem from="1600626754226" duration="6849000" />
+      <workItem from="1600653347237" duration="594000" />
     </task>
     <servers />
   </component>
@@ -75,13 +73,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="705" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600394214970">
+    <state x="805" y="118" key="FileChooserDialogImpl" timestamp="1600627243469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="705" y="99" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1600394214970" />
-    <state x="805" y="118" key="FileChooserDialogImpl" timestamp="1600396105180">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="805" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600396105180" />
+    <state x="805" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600627243469" />
   </component>
 </project>
