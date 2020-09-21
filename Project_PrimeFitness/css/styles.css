@@ -829,7 +829,7 @@ blockquote::after {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 .event-btn.event-btn-secondary {
-    background-color: #e6e7e9;
+    background-color: #FF1414;
     border-color: #e6e7e9;
     color: #000; }
 .event-btn.btn-sm {
