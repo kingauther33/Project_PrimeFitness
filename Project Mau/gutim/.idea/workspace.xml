@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f3cf14f-36fd-4c27-875b-1b8b6b732390" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../.idea/Project_PrimeFitness.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gutim.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project_PrimeFitness/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project_PrimeFitness/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Project_PrimeFitness/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crossbody/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../crossbody/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project_PrimeFitness/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project_PrimeFitness/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project_PrimeFitness/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project_PrimeFitness/js/bootstrap.min.js" afterDir="false" />
-    </list>
+    <list default="true" id="7f3cf14f-36fd-4c27-875b-1b8b6b732390" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project_PrimeFitness" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,6 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598580843516</updated>
       <workItem from="1598580844666" duration="6031000" />
+      <workItem from="1600627246410" duration="336000" />
     </task>
     <servers />
   </component>
@@ -91,6 +83,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1598581078304">

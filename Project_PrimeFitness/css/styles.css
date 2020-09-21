@@ -283,7 +283,6 @@ nav {
 
 /*========== START Feedbacks ===========*/
 
-/*========== END Feedbacks ===========*/
 .testimonials {
     margin: 50px auto;
 }
@@ -363,6 +362,40 @@ blockquote::after {
     bottom: -15px;
     left: 5px;
 }
+
+/*========== END Feedbacks ===========*/
+
+/*========== Start Subcribe ===========*/
+.subcribe {
+    background: #dce2e1;
+    color: #646666;
+}
+
+.subcribe__text h2{
+    font-size: 300%;
+    padding: 10px 0px;
+    color: #1a1a1a;
+}
+
+.subcribe__text p {
+    font-size: 150%;
+    color: #1d1d1d;
+}
+
+.subcribe__btn {
+    background: #c11325;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0 40px 0;
+    font-size: 140%;
+    border: none;
+}
+
+
+/*========== END Subcribe ===========*/
+
+
 /*============= ============= ABOUT CSS ============= ============= */
 
 /*============= WELCOME Section =============*/
@@ -427,14 +460,15 @@ blockquote::after {
     background: #E3DFDB;
 }
 
-.contact__abt .row {
+.contact__abt .row h4 {
+    font-size: 140%;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    line-height: 1.8em;
 }
 
-.contact__abt .row h4 {
-    border-bottom: 2px solid #000000;
-    font-size: 140%;
-    letter-spacing: 0.1em;
-    line-height: 1.5em;
+.contact__abt .row h4 span {
+    border-bottom: 3px solid #000000;
 }
 
 .contact__abt .row a {
@@ -446,12 +480,82 @@ blockquote::after {
     color: #95999c;
 }
 
-.contact__abt .row a h4:hover {
-    border-bottom: 2px solid #95999c;
+.contact__abt .row a h4 span:hover {
+    border-bottom: 3px solid #95999c;
 }
 /*============= END Contact Us Section =============*/
 
-/*============= ============= END About CSS ============= ============= */
+/*============= =============
+        END About CSS
+============= ============= */
+
+
+/*============= =============
+        Gallery CSS
+============= ============= */
+
+/*============= Header Section =============*/
+.welcome__about {
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.welcome__about .container__content {
+    width: 40%;
+    margin: 10px auto;
+    padding: 0;
+}
+
+.welcome__about .welcome__bottom {
+    border-bottom: 3px solid #c11325;
+    line-height: 50px;
+}
+
+.welcome__about h2 {
+    font-family: 'Catamaran', sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 0.25em;
+}
+
+.welcome__about h4 {
+    font-size: 125%;
+    margin-top: 30px;
+    letter-spacing: 0.1em;
+}
+/*============= END Header Section =============*/
+
+/*============= Body Section =============*/
+
+.gal__controls ul {
+    display: table;
+    margin: 5px auto 15px auto;
+    list-style-type: none;
+}
+
+.gal__controls ul li {
+    display: inline;
+    padding: 50px;
+}
+
+.gal__controls ul li a {
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+    font-size: 1.3em;
+}
+
+.gal__controls ul li a:hover {
+    color: #c11325;
+}
+/*============= Body Section =============*/
+
+
+/*============= =============
+     END Gallery CSS
+============= ============= */
+
+
 
 
 /*============= HIEU =============*/
@@ -466,8 +570,8 @@ blockquote::after {
     display: flex;
     flex-flow: row wrap;
     padding: 30px 30px 20px 30px;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     border-top: 1px solid #e5e5e5;
 }
 
