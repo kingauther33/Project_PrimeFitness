@@ -925,29 +925,29 @@ blockquote::after {
     width: 40px;
     height: 2px;
     background: #fd7e14; }
-.event-btn {
+.btn {
     position: relative;
     top: 0; }
-.event-btn:hover, .event-btn:active, .event-btn:focus {
+.btn:hover, .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
-.event-btn.event-btn-secondary {
+.btn.btn-secondary {
     background-color: #e6e7e9;
     border-color: #e6e7e9;
     color: #000; }
-.event-btn.btn-sm {
+.btn.btn-sm {
     font-size: 0.9rem; }
-.event-btn:hover {
+.btn:hover {
     -webkit-box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important;
     box-shadow: 0 5px 20px -7px rgba(0, 0, 0, 0.9) !important; }
-.event-btn.pill {
+.btn.pill {
     border-radius: 30px !important; }
-.event-btn.btn-white.btn-outline-white {
+.btn.btn-white.btn-outline-white {
     border-color: #fff;
     background: transparent;
     color: #fff; }
-.event-btn.btn-white.btn-outline-white:hover {
+.btn.btn-white.btn-outline-white:hover {
     background: #fff;
     color: #000; }
 /*============= Event ends =============*/
