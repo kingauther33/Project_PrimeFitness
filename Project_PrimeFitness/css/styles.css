@@ -467,21 +467,14 @@ blockquote::after {
     line-height: 1.8em;
 }
 
-.contact__abt .row h4 span {
-    border-bottom: 3px solid #000000;
-}
-
 .contact__abt .row a {
     color: #000000;
     text-decoration: none;
 }
 
-.contact__abt .row a:hover {
-    color: #95999c;
-}
-
 .contact__abt .row a h4 span:hover {
     border-bottom: 3px solid #95999c;
+    color: #95999c;
 }
 /*============= END Contact Us Section =============*/
 
@@ -527,27 +520,121 @@ blockquote::after {
 
 /*============= Body Section =============*/
 
-.gal__controls ul {
+.gallery__gal{
+    margin-bottom: 0;
+}
+
+.gal__container ul {
     display: table;
     margin: 5px auto 15px auto;
     list-style-type: none;
 }
 
-.gal__controls ul li {
+.gal__container ul li {
     display: inline;
     padding: 50px;
 }
 
-.gal__controls ul li a {
+.gal__container ul li a {
     text-decoration: none;
     color: #222222;
     text-transform: uppercase;
     font-size: 1.3em;
 }
 
-.gal__controls ul li a:hover {
+.gal__container ul li a:hover {
     color: #c11325;
 }
+
+.gal__items {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    letter-spacing: -1px;
+    word-spacing: 2px;
+}
+
+.gal__items:hover:before, .gal__items:hover:after {
+    opacity: 1;
+}
+
+.gal__items:hover .gal__hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.gal__items:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background: #c11325;
+    content: "";
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.3s;
+}
+
+.gal__items:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    content: "";
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.gal__items .gal__hover__wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+}
+
+.gal__items .gal__hover {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+
+.gal__items .gal__hover a {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+
+.gal__items .gal__hover a:hover {
+    color: #c11325;
+    border: 2px solid #c11325;
+}
+
+.gal__items .gal__hover h6 {
+    color: white;
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.gal__items .gal__hover h6 span {
+    margin-top: 7px;
+    display: block;
+}
+
 /*============= Body Section =============*/
 
 
@@ -556,8 +643,22 @@ blockquote::after {
 ============= ============= */
 
 
+/*============= =============
+     Start FAQS CSS
+============= ============= */
+.faq {
+    background-color: #f1eeee;
+    padding: 75px;
+    margin-bottom: 75px;
+}
 
+.faq h3 {
+    line-height: 60px;
+}
 
+.faq p {
+    font-size: 18px;
+}
 /*============= HIEU =============*/
 /*============= footer =============*/
 #map{
